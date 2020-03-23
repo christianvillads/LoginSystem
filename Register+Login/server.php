@@ -10,15 +10,11 @@
     $db = mysqli_connect('', 'christianvillads_comchri45n5', 'Villadsen123', 'christianvillads_comchri45n5');
 
     // if register button is clicked
-    if (isset($_POST['register'])) {
+    if (isset($_POST['register.php'])) {
         $username = mysql_real_escape_string($_POST['username']);
         $email = mysql_real_escape_string($_POST['email']);
         $password_1 =  mysql_real_escape_string($_POST['password_1']);
         $password_2 =  mysql_real_escape_string($_POST['password_2']);
-        var_dump($username);
-        var_dump($email);
-        var_dump($password_1);
-        var_dump($password_2);
     }
     //ensure that the form was filled in
     if (empty($username)) {
