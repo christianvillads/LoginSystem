@@ -10,7 +10,12 @@
     <div class="header">
         <h2>Register</h2>
     </div>
-
+        <?php 
+            var_dump($username);
+            var_dump($email);
+            var_dump($password_1);
+            var_dump($password_2);
+        ?>
     <form mehtod="post" action="register.php">
         <?php include('errors.php'); ?>
         <div class="input-group">
