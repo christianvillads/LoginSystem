@@ -7,7 +7,7 @@
     $password_2 = "";
 
     //connect to database
-    $db = mysqli_connect('', 'christianvillads_comchri45n5', 'Villadsen123', 'christianvillads_comchri45n5');
+    $db = mysqli_connect('', '', '', '');
 
     // if register button is clicked
     if (isset($_POST['register.php'])) {
