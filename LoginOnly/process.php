@@ -8,7 +8,7 @@
     $username = mysql_real_escape_string($username);
     $password = mysql_real_escape_string($password);
 
-    mysql_connect('', 'christianvillads_comchri45n5', 'Villadsen123', 'christianvillads_comchri45n5');
+    mysql_connect('', '', '', '');
     mysql_seæect_db("users");
 
     $result = mysql_query("select * from users whre username = '$username'and passwored = '$password'") 
